@@ -19,28 +19,29 @@ class Square:
         self.__size = value
 
     def area(self):
+        """ Calculates the area of a Square """
         return(self.__size**2)
 
     def __lt__(self, other):
-        """check if less than other square"""
+        """ Check if less than other square """
         return self.area() < other.area()
     
     def __eq__(self, other):
-        """check if equal to another square"""
+        """ Check if equal to another square """
         return self.area() == other.area()
     
     def __le__(self, other):
-        """check if less than or equal to other square"""
+        """ Check if less than or equal to other square """
         return self.area() <= other.area()
     
     def __gt__(self, other):
-        """check if greater than another square"""
+        """ Check if greater than another square """
         return self.area() > other.area()
     
     def __ge__ (self, other):
-        """check if greater than or equal to another square"""
+        """ Check if greater than or equal to another square"""
         return self.area() >= other.area()
     
     def __ne__(self, other):
-        """check if not equal to another square"""
+        """ Check if not equal to another square """
         return self.area() != other.area()
