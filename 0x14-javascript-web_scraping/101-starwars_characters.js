@@ -17,6 +17,6 @@ request(address, function(error, response, body){
             for (let i of a){
                 console.log(i);
             }
-        })
+        });
     }
-})
+});
