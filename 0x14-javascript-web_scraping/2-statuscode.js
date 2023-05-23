@@ -1,7 +1,7 @@
 #!/usr/bin/node
 let request = require('request');
 let adress = process.argv[2];
-request(address, function (error, response, body) {
+request(adress, function (error, response, body) {
     if(error){
         console.log(error)
     } else {

@@ -1,4 +1,4 @@
-#!/bin/node
+#!/usr/bin/node
 const request = require('request');
 const address = process.argv[2];
 
@@ -14,7 +14,7 @@ request(address, function(error, response, body) {
                     count += 1;
                 }
             }
-            console.log(count);
         }
+	console.log(count);
     }
 })
