@@ -18,4 +18,4 @@ request(address, function (error, response, body) {
         console.log(results);
     }
 
-})
+});
