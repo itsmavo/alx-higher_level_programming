@@ -14,11 +14,7 @@ request(address, function(error, response, body) {
                     count += 1;
                 }
             }
-        }
-<<<<<<< HEAD
+	}
 	console.log(count);
-=======
-       console.log(count);
->>>>>>> 7f58b867cdd0191a29b659f0b281fcf728418575
     }
 })
