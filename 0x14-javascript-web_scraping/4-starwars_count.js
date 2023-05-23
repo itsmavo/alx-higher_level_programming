@@ -14,7 +14,7 @@ request(address, function(error, response, body) {
                     count += 1;
                 }
             }
-            console.log(count);
         }
+       console.log(count);
     }
 })
