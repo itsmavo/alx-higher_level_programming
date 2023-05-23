@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const request = require('request')
+const request = require('request');
 const address = 'https://swapi-api.alx-tools.com/api/films/' + process.argv[2];
 
 request(address, function (error, response, body) {
